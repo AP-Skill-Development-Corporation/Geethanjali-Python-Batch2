@@ -1,0 +1,336 @@
+
+
+
+Good Morning to all
+
+Wait for few minutes others can join the session
+
+we will start the session at 9:30am
+
+As soon as you join please rename yourself in the following format
+
+FORMAT: ROLL NUMBER  - YOUR NAME - COLLEGE NAME
+ex:2021A0501-Vijay Kumar- GIST
+
+we have 18days
+		each 2hr if have any doubts 30 min
+			9:00am to 11:00 am 30 min doubt
+			
+		2*18 -->36hr
+		
+		3 days:github -->3*2 =6 hr
+		15 days:python -->15*2=30 hr
+		
+		90% attendance 
+		
+		->desktop/tab/mobile/laptop
+		
+		
+		
+git&github
+	-->git -local software
+	-->github- server/cloud /web interface
+	
+	-->it is distribited version control system
+	
+	->how to connect local system to server
+	
+	->how to configure 
+	-> how to create a an account in github
+	->how to push
+	->how to clone
+	->how to commit
+	->how to fetch
+	->how to fork other repositories
+	->how to build own profile into github
+	->markdown syntax
+	-> contribution
+	->collabrations
+	-> branching
+	->how to share our project with public user
+	->how to secure our repository or organization repository
+	
+python
+
+	- intro about python
+	- environment setups
+			->windows
+			->macos
+			->linux
+			
+		setups:
+				off line platform
+					-->ide:anaconda
+							->spyder
+							->jupyter notebook
+					-->VS(visuval Studio code)
+					-->pycharm
+				online platforms:
+					->google colab
+					-->tutorial point
+					-->hacakerearth
+					-->Hackerrank
+		->variables
+		->operators
+		->control flow satements
+			-->conditions
+			-->loops
+		->Strings
+		->funtions
+		->data strucure
+			->list
+			->tuple
+			->dictionary
+			->set
+			->frozen set
+	
+		-> file handling
+			 ->write
+			 ->read
+			 ->append
+			 ->write+read
+	  -> regualr expressions
+			for validations
+				->phone no validation
+				->gmail validation
+	->packages and modules
+	->object orinted programming(oops)
+			->object
+			->class
+			->inheritance
+			->construter
+			->encapulation
+			->polymorphism
+			->abstartions
+	->opps using packages and modules
+	->intro about  Data Science
+		-> data analysis
+				->numpy
+				->pandas
+				->matplotlib
+				->seaborn
+				->scikit-learn
+						
+
+
+
+
+
+Happy Morning to all....
+
+welcome to Day-2 Python programming workshop
+
+	Agenda:
+		- Environment setup -git
+			- https://git-scm.com/download/win
+				
+		- Practicle Exposure on Basic Linux commands
+				-PWD(Present working Directory)
+					- it is displaying path of Folder
+				-LS(List of Source Files)
+					->to diaply list of files and folders with in the Folder(Repository)
+				-cd(change Diretory)
+					- to navigate one location to another location to forward direction
+					- cd foldername
+				- cd ..(change directory to the Backward)
+					- to navigate from one location to imediate back location
+				- cd d:
+					->move one drive to another drive
+				-cd C:\Users\Admin\Desktop
+				-ctrl+L:to clear screen
+				- mkdir foldername
+					- to create one folder with in the diretory
+				-rmdir foldername
+					- to deletefolder 
+				- touch 
+					- to create single or multiple files
+					- touch files.extension
+				single file cretion
+					- touch filename.extension
+				multiplefiles 
+					- touch filename{1..100.extesion}
+				- echo
+					-to display some message into console or file
+					-echo "Message"
+					-echo {1..10} -it return 1,2,3,4,5,6..10
+				- Rm
+					- if you want delete single file
+						- rm filename
+					- if you want to delete multiplefiles from particular range
+						- rm filename{6..10}.extension
+					- if you want to delete multiple files with extension
+						- rm *.txt
+					- if you want to delete all the files inside repo
+						- rm *
+				- editor(nano,vim)
+						- nano
+						- nano filename.txt
+						- saving
+							ctrl+o
+						- exit
+							ctrl+x
+				- cat filenam.extension
+					- to access content with in the file
+				- cat myfile.txt >> destination.txt
+					- copy data from source file to destination file
+				- cp sourcefile.txt destinationfile.txt
+					- copy data from source file to destination file
+				- mv
+					moving data from one file(sourcefile) to destination
+					- mv sourcefile.txt destinationfile.txt
+					- once data is moved into destinationfile automatically source file deleted
+				- crete two folders in side folder(repo)
+					-mv source destination
+						- data is moved into destination
+						 - source folder is automatically deleted
+				
+				
+				-git hub account
+					-https://github.com/
+					- username:uniq
+					- email:your email
+					- password:
+								upper,small,special,numaric
+								Vijaykumar@123
+				
+		- Practicle Exposure on git
+
+
+
+
+
+
+
+		Note:Wait for few minutes others can join the session
+				
+		Good Morning to all....
+			[Day-3]Agenda:
+				- Practicle Exposure on git&github
+					- git configrations
+					- git repository creation
+					- git remoting
+					- git add 
+					- git commit
+					- git push 
+					- git pull
+					- git clone
+			    - forking
+			    - git contribution
+			    - git collabration
+			    - git markdown
+			    
+			    
+			    
+			    
+		- step:1
+			git init
+			This creates a new subdirectory named .git that contains all of your necessary repository files — a Git repository skeleton. At this point, nothing in your project is tracked yet
+		- step:2 
+			configurations
+										git                   github
+				->bridge b/w local machine creadintials to cloud/server credintials
+			- global configuration(prefer)
+					- Entire system Configuration
+					- just single time configuration
+			- local configiration
+					- just Repo/folder configuration
+					- when you create new folders every time configuration is needed
+				- we need two parameters 
+						- username(github)
+						- email (github email)
+				- git config user.name "username"
+					ex:git config user.name "vijaykumar"
+				- checking whether username is configure or not
+					- git config user.name
+				- git config user.email "email"
+					ex:git config user.email "vijay10022@gmail.com"
+				- check
+					-git config user.email
+			- Step3:
+				adding remote 
+					- git remote add remotename remoteurl 
+					ex:git remote add vijay https://github.com/vijaykumar10022/GIST-ECE.git
+					
+					- check how many remotes avilable in repo
+						- git remote -v
+					
+		- step:4
+				try to create single file or multiple files
+				- git status
+				- echo "this is demo " >> demo.txt
+				- git status
+					- files are untracked
+		- step:5
+		
+				- single file 
+					-git add filename
+						- ex:git add demo.txt
+				- multiple files
+					- git add *(all)
+					
+					
+					or
+				- multiple files
+					- git add .
+					
+				- git status
+		- step:6
+				-git commit -m "message"
+					ex:git commit -m "demo file is added"
+		- step:7
+				- git push -u remotename master
+					ex:git push -u vijay master
+						- username
+						- password
+					
+
+
+
+
+
+
+
+
+
+
+
+			- step1:git init
+			- step2:
+				git config user.name "vijay-APSSDC"
+				git config user.email "vijay10022@gmail.com"
+				git config user.name
+				git config user.email
+		   - step:3
+					git remote add apssdc https://github.com/vijaykumar10022/GIST-APSSDC-ECE.git
+					git remote -v
+		   - step:4
+					echo "hello i am vijay from vijayawada" >> myfile.txt
+					touch file{1..10}.txt
+			
+		   -step :5
+					git add * or git add .
+		   - step:6
+					git commit -m "files are added"
+			- step:7 
+						git push -u apssdc master
+
+
+		- update the data in github
+		- go to gitbash 
+			-git pull remotename master
+			- ex:git pull apssdc master
+		- update the data in git
+				-step :5
+					git add * or git add .
+				   - step:6
+							git commit -m "files are added"
+					- step:7 
+								git push -u apssdc master
+				
+
+
+
+
+
+
+
