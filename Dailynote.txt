@@ -332,5 +332,70 @@ welcome to Day-2 Python programming workshop
 
 
 
+Carrer Guidence:
+
+Python - online platforms
+		-> hackerank
+		-> Hacker Earth
+Hardwareware:
+		iot
+			->Rasberrypi
+		Machine Learning:
+			
+
+Software:
+
+		Data Science:
+			->Data Analysis(DA):
+						->Numpy
+						->Pandas
+						->Scikit learn
+						->Seaborn
+						->matplot lib
+							
+				->AI
+				->ML
+				->NLP
+				->Image Processing
+				->DL
+	
+
+	->Web Frameworks:
+			->Django
+			->Flask
+			->Cherry pi
+			
+	->Automation
+		->robotics
+		->selenium
+		
+	- Devapps
+		Cloud platform
+		AWS
+		RDMS
+	
+
+
+
+
+
+
+
+	->pandas:
+		->package
+		import pandas
+		->pip install pandas
+		
+		topics:
+			->Data Series	1'd ' Array
+			->Data Frame	->Table Format ->rows,colums
+			
+		->Data Manupulation
+		->Data Cleaning
+		->Data Visualization
+		->ML Models
+		
+
+
 
 
